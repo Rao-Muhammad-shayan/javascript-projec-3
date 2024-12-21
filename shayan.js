@@ -1,4 +1,87 @@
-// Chapter 9-11
+// Chapter 6-9
+// Answer 1
+// let a=prompt("Enter a number");
+// document.write(`The value of a is: ${a}`)
+// ++a
+// document.write(`<br> The value of ++a is ${a}`);
+// document.write(`<br> Now the value of a is ${a}`);
+// document.write(`<br> The value of a++ is ${a++}`);
+// document.write(`<br> Now the value of a is ${a}`);
+// document.write(`<br> The value of --a is ${--a}`);
+// document.write(`<br> Now the value of a is ${a}`);
+// document.write(`<br> The value of a-- is ${a--}`);
+// document.write(`<br> Now the value of a is ${a}`);
+
+// // Answer 2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+              
+// document.write(`The result   ${--a} is <br> `)
+// document.write(`The result   ${--a - --b} is <br> `)
+// document.write(`The result   ${--a - --b + ++b} is <br> `)
+// document.write(`The result   ${--a - --b + ++b + b--} is <br> `)
+// document.write(`The value  of a is ${a} is <br> `)
+// document.write(`The value  of b is ${b} is <br> `)
+// document.write(`The result of  ${--a - --b + ++b + b--} is <br> `)
+
+// // Answer 3
+
+
+// // var a = prompt("Enter a number");
+// // let number = parseInt(a.trim());
+// // let b;
+
+// // if (!isNaN(number)) { // Check if 'number' is a valid number
+// //     for (let i = 1; i < 11; i++) {
+// //         document.write(`${number} x ${i} = ${number * i} <br> `);
+// //     }
+// // } else {
+// //     for (let i = 1; i < 11; i++) {
+// //         document.write(`5 x ${i} = ${5 * i} <br> `);
+// //     }
+// // }
+
+// // Answer 4
+// let a = prompt("Enter a name of 1st subject");
+// let b = prompt("Enter a name of 2nd subject");
+// let c = prompt("Enter a name of 3rd subject");
+// let TotalMarksOfEachSubject = 100;
+// let TotalMarks = TotalMarksOfEachSubject * 3;
+
+// let marksOf1stSubject = +prompt("Enter Marks obtained in 1st subject");
+// document.write("<br> Subject 1 : " + a + "    " + marksOf1stSubject + "  " + TotalMarksOfEachSubject);
+
+// let marksOf2ndSubject = +prompt("Enter Marks obtained in 2nd subject");
+// document.write("<br> Subject 2 : " + b + "    " + marksOf2ndSubject + "  " + TotalMarksOfEachSubject);
+
+// let marksOf3rdSubject = +prompt("Enter Marks obtained in 3rd subject");
+// document.write("<br> Subject 3 : " + c + "    " + marksOf3rdSubject + "  " + TotalMarksOfEachSubject);
+
+// // Calculate total obtained marks
+// let TotalObtainedMarks = marksOf1stSubject + marksOf2ndSubject + marksOf3rdSubject;
+
+// // Calculate percentage
+// let percentage = (TotalObtainedMarks / TotalMarks) * 100;
+
+// // Display total marks and percentage
+// document.write("<br><br>Total Marks: " + TotalMarks);
+// document.write("<br>Total Obtained Marks: " + TotalObtainedMarks);
+// document.write("<br>Percentage: " + percentage.toFixed(2) + "%")
+//   percentage=( TotalObtainedMarks/TotalMarks)*100
+//    document.write(`percentage is ${percentage}`);
+  
+  
+
+
+// Function to determine the time of day based on 24-hour format input
+
+  
+
+
+
+ 
+// // Chapter 9-11
+
 // Answer of 1
 //  let city=prompt("  Enter the Name of city of lights");
 //  if(city.toLowerCase()==="karachi"){
@@ -152,3 +235,133 @@
 // } else {
 //     document.write("Please enter a valid number for the temperature.");
 // }
+
+
+// Promo/X/missing numbers
+
+// let arr = [11, 13, 15, 17, 19];
+// let missingArr = [];
+
+// for (let i = 0; i <= arr.length-1 ; i++) {
+//    let diff=arr[i+1]-arr[i];
+    
+//     // Check if the difference is greater than 1
+//     if (diff> 1) {
+//         // Find the missing numbers
+//         for (let j =  1; j < diff; j++) {
+//             missingArr.push( arr[i] + j );
+//             arr.splice( i + 1, 0, arr[i] + j );
+//         }
+//     }
+// }
+
+
+// console.log(arr);
+
+// Answere 11
+// let a=+prompt("Enter 1st Number");
+// let b=+prompt("Enter 2nd Number");
+// let c=prompt("Enter which do you want to perform Operation ");
+// if(c==="+"){
+//     document.write(a+b);
+// }
+// else if(c==="-"){
+//     document.write(a-b);
+// }
+// else if(c==="*"){
+//     document.write(a*b);
+// }
+// else if(c==="%"){
+//     document.write(a%b);
+// }
+// else{
+//     document.write("Invalid Operator");
+// }
+//  Chapter 11-13
+// Answer 1
+
+
+
+// Answer 2
+// let a = +prompt();
+// let b = +prompt();
+// if(b>a){
+//     document.write(`2nd number is greater ${b} than ${a}`);
+// }
+// else if( b<a){
+//     document.write(`1st number is greater ${a} than ${b}`);
+// }else if(a==b){
+
+//     document.write(`Both numbes  ${a} are ${b} Equal`);
+// }
+// Answer 3 
+// let a=+prompt("enter number");
+
+// if(a>0){
+//     document.write("Positive Number");
+// }else if(a<0){
+//     document.write("Negative Number");
+// }
+// else {
+//     document.write("Zero");
+// }
+
+// Answer 4
+// // let a=prompt("Enter  string"
+// // );
+// // if(a.length!==1){
+// //     document.write("It'snot  a vowel");
+
+
+// // }else{
+// //     document.write("It's  a vowel");
+// // }
+
+// // Answer 5
+
+// // let a="shayanrao897";
+// // let b=prompt("Enter password");
+// // let c=prompt("Enter password")
+// // if(a==b && b==c){
+// //     document.write(`The password you enter is Correct! match with original password`);
+// // }
+// // else if( b=="" && c==""){ 
+// //     document.write(` Enter the password `);
+// // }
+// // else if(b=="a"||c=="a"){
+// //     document.write(`The password you enter is Incorrect! match with original password`);
+// // }
+
+// // else {
+// //    alert(`The password you enter is Incorrect! match with original password`);
+// // }
+
+// // Prompt the user to enter a character
+// let input = prompt("Please enter a character:");
+
+// // Check if the input is a single character
+// if (input.length === 1) {
+//     // Get the ASCII code of the character
+//     let asciiCode = input.charCodeAt(0);
+
+//     // Check if the character is a number
+//     if (asciiCode >= 48 && asciiCode <= 57) {
+//         console.log("The input is a number.");
+//     }
+//     // Check if the character is an uppercase letter
+//     else if (asciiCode >= 65 && asciiCode1 <= 90) {
+//         console.log("The input is an uppercase letter.");
+//     }
+//     // Check if the character is a lowercase letter
+//     else if (asciiCode >= 97 && asciiCode <= 122) {
+//         console.log("The input is a lowercase letter.");
+//     }
+//     // If it's none of the above
+//     else {
+//         console.log("The input is neither a number nor a letter.");
+//     }
+// } else {
+//     console.log("Please enter only a single character.");
+// }
+
+
