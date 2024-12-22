@@ -77,6 +77,103 @@
 
   
 
+// facebook Algorithm
+
+// function facebook() {
+//     let data = prompt("Enter what you are looking for (Comedy, Content Videos, Posts)");
+
+//     if (data.toLowerCase() === "comedy") {
+//         let a = prompt("Enter comedy type");
+//         if (a.toLowerCase() === "live show" || a.toLowerCase() === "funny reels") {
+//             document.write("ye available hai");
+//         } else if (a.toLowerCase() === "dramas") {
+//             let b = prompt("Enter type of drama you want");
+//             if (b.toLowerCase() === "indian") {
+//                 document.write("ye available hai");
+//             } else if (b.toLowerCase() === "american") {
+//                 document.write("ye available hai");
+//             } else if (b.toLowerCase() === "pakistani") {
+//                 document.write("ye available hai");
+//             } else {
+//                 document.write("ye available nhi hai");
+//             }
+//         } else {
+//             document.write("ye available nhi hai");
+//         }
+//     } else if (data.toLowerCase() === "content videos") {
+//         let c = prompt("Enter type of content");
+//         if (c.toLowerCase() === "cringe" || c.toLowerCase() === "challenge" || c.toLowerCase() === "news" || c.toLowerCase() === "technology" || c.toLowerCase() === "vlogs" || c.toLowerCase() === "shorts" || c.toLowerCase() === "cooking" || c.toLowerCase() === "food eating" || c.toLowerCase() === "adult" || c.toLowerCase() === "movies" || c.toLowerCase() === "romance") {
+//             document.write("ye available hai");
+//         } else {
+//             document.write("ye available nhi hai");
+//         }
+//     } else if (data.toLowerCase() === "posts") {
+//         let p = prompt("Enter type of posts");
+//         if (p.toLowerCase() === "poetry posts") {
+//             document.write("ye available hai");
+//         } else if (p.toLowerCase() === "job posts" || p.toLowerCase() === "hiring posts") {
+//             document.write("ye available hai");
+//         } else if (p.toLowerCase() === "religious posts") {
+//             let k = prompt("Enter your religion");
+//             if (k.toLowerCase() === "islamic" || k.toLowerCase() === "christian" || k.toLowerCase() === "hinduism" || k.toLowerCase() === "buddhism") {
+//                 document.write("ye available hai");
+//             } else {
+//                 document.write("ye available nhi hai");
+//             }
+//         } else if (p.toLowerCase() === "ads") {
+//             let add = prompt("Enter type of ads");
+//             if (add.toLowerCase() === "about technology" || add.toLowerCase() === "business marketing" || add.toLowerCase() === "youtube promotion" || add.toLowerCase() === "valentine" || add.toLowerCase() === "marry" || add.toLowerCase() === "nikkah") {
+//                 document.write("ye available hai");
+//             } else {
+//                 document.write("ye available nhi hai");
+//             }
+//         } else {
+//             document.write("ye available nhi hai");
+//         }
+//     } else {
+//         document.write("<br>"+"Invalid option"+"</br>");
+//     }
+// }
+
+// facebook();
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
@@ -355,13 +452,60 @@
 //     // Check if the character is a lowercase letter
 //     else if (asciiCode >= 97 && asciiCode <= 122) {
 //         console.log("The input is a lowercase letter.");
-//     }
-//     // If it's none of the above
-//     else {
-//         console.log("The input is neither a number nor a letter.");
-//     }
-// } else {
-//     console.log("Please enter only a single character.");
-// }
+// //     }
+// //     // If it's none of the above
+// //     else {
+// //         console.log("The input is neither a number nor a letter.");
+// //     }
+// // } else {
 
+//     // let str = "Rao Muhammad shayan";
 
+//     // // Find the start and end indices of the substring "Muhammad"
+//     // let startIndex = str.indexOf("Muhammad");
+//     // let endIndex = startIndex + "Muhammad".length;
+    
+//     // // Create the new string using slice
+//     // let newStr = str.slice(0, startIndex) + "Ali" + str.slice(endIndex);
+    
+//     // console.log(newStr); // Output: "Rao Ali shayan"
+//     // var num=8998.900;
+//     // num.toFixed()
+
+//     function generatePassword(length, includeUppercase, includeLowercase, includeNumbers, includeSpecial) {
+//       const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//       const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
+//       const numberChars = '0123456789';
+//       const specialChars = '!@#$%^&*()_+[]{}|;:,.<>?';
+  
+//       let characterPool = '';
+//       if (includeUppercase) characterPool += uppercaseChars;
+//       if (includeLowercase) characterPool += lowercaseChars;
+//       if (includeNumbers) characterPool += numberChars;
+//       if (includeSpecial) characterPool += specialChars;
+  
+//       if (characterPool.length === 0) {
+//           throw new Error('Please select at least one character type.');
+//       }
+  
+//       let password = '';
+//       for (let i = 0; i < length; i++) {
+//           const randomIndex = Math.floor(Math.random() * characterPool.length);
+//           password += characterPool[randomIndex];
+//       }
+  
+//       return password;
+//   }
+  
+//   // Example usage:
+//   const length = 12; // Desired password length
+//   const includeUppercase = true; // Include uppercase letters
+//   const includeLowercase = true; // Include lowercase letters
+//   const includeNumbers = true; // Include numbers
+//   const includeSpecial = true; // Include special characters
+  
+//   const password = generatePassword(length, includeUppercase, includeLowercase, includeNumbers, includeSpecial);
+//   console.log('Generated Password:', password);
+let a="karachi";
+a+= " "+"lahore";
+console.log(`${a}`);
